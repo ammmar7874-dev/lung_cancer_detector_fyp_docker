@@ -1,0 +1,1222 @@
+{
+  "model": "ResNet-18 (ImageNet pretrained)",
+  "task": "Lung cancer CT image classification",
+  "classes": [
+    "Normal",
+    "Benign",
+    "Malignant"
+  ],
+  "num_samples": 110,
+  "results": [
+    {
+      "image_path": "/kaggle/input/the-iqothnccd-lung-cancer-dataset/The IQ-OTHNCCD lung cancer dataset/Normal cases/Normal case (136).jpg",
+      "true_label": "Normal",
+      "prediction": "Normal",
+      "confidence": 0.9994340538978577,
+      "probabilities": {
+        "Malignant": 4.858826650888659e-05,
+        "Normal": 0.9994340538978577,
+        "Benign": 0.0005173684330657125
+      }
+    },
+    {
+      "image_path": "/kaggle/input/the-iqothnccd-lung-cancer-dataset/The IQ-OTHNCCD lung cancer dataset/Normal cases/Normal case (403).jpg",
+      "true_label": "Normal",
+      "prediction": "Normal",
+      "confidence": 0.9998031258583069,
+      "probabilities": {
+        "Malignant": 9.724986739456654e-06,
+        "Normal": 0.9998031258583069,
+        "Benign": 0.00018711424490902573
+      }
+    },
+    {
+      "image_path": "/kaggle/input/the-iqothnccd-lung-cancer-dataset/The IQ-OTHNCCD lung cancer dataset/Malignant cases/Malignant case (549).jpg",
+      "true_label": "Malignant",
+      "prediction": "Malignant",
+      "confidence": 0.9978023171424866,
+      "probabilities": {
+        "Malignant": 0.9978023171424866,
+        "Normal": 4.2662592022679746e-05,
+        "Benign": 0.002154952846467495
+      }
+    },
+    {
+      "image_path": "/kaggle/input/the-iqothnccd-lung-cancer-dataset/The IQ-OTHNCCD lung cancer dataset/Malignant cases/Malignant case (422).jpg",
+      "true_label": "Malignant",
+      "prediction": "Malignant",
+      "confidence": 0.9975335597991943,
+      "probabilities": {
+        "Malignant": 0.9975335597991943,
+        "Normal": 0.00018513704708311707,
+        "Benign": 0.0022812210954725742
+      }
+    },
+    {
+      "image_path": "/kaggle/input/the-iqothnccd-lung-cancer-dataset/The IQ-OTHNCCD lung cancer dataset/Malignant cases/Malignant case (545).jpg",
+      "true_label": "Malignant",
+      "prediction": "Malignant",
+      "confidence": 0.9994564652442932,
+      "probabilities": {
+        "Malignant": 0.9994564652442932,
+        "Normal": 8.043063644436188e-06,
+        "Benign": 0.0005353983724489808
+      }
+    },
+    {
+      "image_path": "/kaggle/input/the-iqothnccd-lung-cancer-dataset/The IQ-OTHNCCD lung cancer dataset/Malignant cases/Malignant case (469).jpg",
+      "true_label": "Malignant",
+      "prediction": "Malignant",
+      "confidence": 0.9997701048851013,
+      "probabilities": {
+        "Malignant": 0.9997701048851013,
+        "Normal": 2.001650136662647e-05,
+        "Benign": 0.00020991732890252024
+      }
+    },
+    {
+      "image_path": "/kaggle/input/the-iqothnccd-lung-cancer-dataset/The IQ-OTHNCCD lung cancer dataset/Normal cases/Normal case (29).jpg",
+      "true_label": "Normal",
+      "prediction": "Normal",
+      "confidence": 0.9577326774597168,
+      "probabilities": {
+        "Malignant": 0.0033271703869104385,
+        "Normal": 0.9577326774597168,
+        "Benign": 0.038940124213695526
+      }
+    },
+    {
+      "image_path": "/kaggle/input/the-iqothnccd-lung-cancer-dataset/The IQ-OTHNCCD lung cancer dataset/Bengin cases/Bengin case (91).jpg",
+      "true_label": "Benign",
+      "prediction": "Benign",
+      "confidence": 0.8550021052360535,
+      "probabilities": {
+        "Malignant": 0.0017236705170944333,
+        "Normal": 0.14327426254749298,
+        "Benign": 0.8550021052360535
+      }
+    },
+    {
+      "image_path": "/kaggle/input/the-iqothnccd-lung-cancer-dataset/The IQ-OTHNCCD lung cancer dataset/Malignant cases/Malignant case (454).jpg",
+      "true_label": "Malignant",
+      "prediction": "Malignant",
+      "confidence": 0.9994729161262512,
+      "probabilities": {
+        "Malignant": 0.9994729161262512,
+        "Normal": 5.182264794711955e-05,
+        "Benign": 0.000475333072245121
+      }
+    },
+    {
+      "image_path": "/kaggle/input/the-iqothnccd-lung-cancer-dataset/The IQ-OTHNCCD lung cancer dataset/Malignant cases/Malignant case (472).jpg",
+      "true_label": "Malignant",
+      "prediction": "Malignant",
+      "confidence": 0.9988889098167419,
+      "probabilities": {
+        "Malignant": 0.9988889098167419,
+        "Normal": 5.694428546121344e-05,
+        "Benign": 0.0010542005766183138
+      }
+    },
+    {
+      "image_path": "/kaggle/input/the-iqothnccd-lung-cancer-dataset/The IQ-OTHNCCD lung cancer dataset/Malignant cases/Malignant case (157).jpg",
+      "true_label": "Malignant",
+      "prediction": "Malignant",
+      "confidence": 0.9996705055236816,
+      "probabilities": {
+        "Malignant": 0.9996705055236816,
+        "Normal": 2.6945514036924578e-05,
+        "Benign": 0.000302528846077621
+      }
+    },
+    {
+      "image_path": "/kaggle/input/the-iqothnccd-lung-cancer-dataset/The IQ-OTHNCCD lung cancer dataset/Normal cases/Normal case (365).jpg",
+      "true_label": "Normal",
+      "prediction": "Normal",
+      "confidence": 0.9998971223831177,
+      "probabilities": {
+        "Malignant": 8.001514288480394e-06,
+        "Normal": 0.9998971223831177,
+        "Benign": 9.485216287430376e-05
+      }
+    },
+    {
+      "image_path": "/kaggle/input/the-iqothnccd-lung-cancer-dataset/The IQ-OTHNCCD lung cancer dataset/Normal cases/Normal case (54).jpg",
+      "true_label": "Normal",
+      "prediction": "Normal",
+      "confidence": 0.999860405921936,
+      "probabilities": {
+        "Malignant": 1.4511410881823394e-06,
+        "Normal": 0.999860405921936,
+        "Benign": 0.00013818073784932494
+      }
+    },
+    {
+      "image_path": "/kaggle/input/the-iqothnccd-lung-cancer-dataset/The IQ-OTHNCCD lung cancer dataset/Malignant cases/Malignant case (256).jpg",
+      "true_label": "Malignant",
+      "prediction": "Malignant",
+      "confidence": 0.9992778897285461,
+      "probabilities": {
+        "Malignant": 0.9992778897285461,
+        "Normal": 0.00019824002811219543,
+        "Benign": 0.0005238812882453203
+      }
+    },
+    {
+      "image_path": "/kaggle/input/the-iqothnccd-lung-cancer-dataset/The IQ-OTHNCCD lung cancer dataset/Normal cases/Normal case (266).jpg",
+      "true_label": "Normal",
+      "prediction": "Normal",
+      "confidence": 0.9990504384040833,
+      "probabilities": {
+        "Malignant": 3.0375022106454708e-05,
+        "Normal": 0.9990504384040833,
+        "Benign": 0.000919232377782464
+      }
+    },
+    {
+      "image_path": "/kaggle/input/the-iqothnccd-lung-cancer-dataset/The IQ-OTHNCCD lung cancer dataset/Normal cases/Normal case (207).jpg",
+      "true_label": "Normal",
+      "prediction": "Normal",
+      "confidence": 0.9985507130622864,
+      "probabilities": {
+        "Malignant": 0.0001317409478360787,
+        "Normal": 0.9985507130622864,
+        "Benign": 0.0013175011845305562
+      }
+    },
+    {
+      "image_path": "/kaggle/input/the-iqothnccd-lung-cancer-dataset/The IQ-OTHNCCD lung cancer dataset/Malignant cases/Malignant case (118).jpg",
+      "true_label": "Malignant",
+      "prediction": "Malignant",
+      "confidence": 0.9999562501907349,
+      "probabilities": {
+        "Malignant": 0.9999562501907349,
+        "Normal": 8.697099474375136e-06,
+        "Benign": 3.509667294565588e-05
+      }
+    },
+    {
+      "image_path": "/kaggle/input/the-iqothnccd-lung-cancer-dataset/The IQ-OTHNCCD lung cancer dataset/Malignant cases/Malignant case (71).jpg",
+      "true_label": "Malignant",
+      "prediction": "Malignant",
+      "confidence": 0.9994909763336182,
+      "probabilities": {
+        "Malignant": 0.9994909763336182,
+        "Normal": 9.665029210736975e-05,
+        "Benign": 0.0004124199622310698
+      }
+    },
+    {
+      "image_path": "/kaggle/input/the-iqothnccd-lung-cancer-dataset/The IQ-OTHNCCD lung cancer dataset/Normal cases/Normal case (405).jpg",
+      "true_label": "Normal",
+      "prediction": "Normal",
+      "confidence": 0.9995720982551575,
+      "probabilities": {
+        "Malignant": 7.812992407707497e-06,
+        "Normal": 0.9995720982551575,
+        "Benign": 0.0004201036936137825
+      }
+    },
+    {
+      "image_path": "/kaggle/input/the-iqothnccd-lung-cancer-dataset/The IQ-OTHNCCD lung cancer dataset/Bengin cases/Bengin case (120).jpg",
+      "true_label": "Benign",
+      "prediction": "Benign",
+      "confidence": 0.8349663615226746,
+      "probabilities": {
+        "Malignant": 0.0010632831836119294,
+        "Normal": 0.1639704406261444,
+        "Benign": 0.8349663615226746
+      }
+    },
+    {
+      "image_path": "/kaggle/input/the-iqothnccd-lung-cancer-dataset/The IQ-OTHNCCD lung cancer dataset/Normal cases/Normal case (345).jpg",
+      "true_label": "Normal",
+      "prediction": "Normal",
+      "confidence": 0.8997743725776672,
+      "probabilities": {
+        "Malignant": 0.06298277527093887,
+        "Normal": 0.8997743725776672,
+        "Benign": 0.03724285960197449
+      }
+    },
+    {
+      "image_path": "/kaggle/input/the-iqothnccd-lung-cancer-dataset/The IQ-OTHNCCD lung cancer dataset/Malignant cases/Malignant case (97).jpg",
+      "true_label": "Malignant",
+      "prediction": "Malignant",
+      "confidence": 0.9996614456176758,
+      "probabilities": {
+        "Malignant": 0.9996614456176758,
+        "Normal": 4.361436367616989e-05,
+        "Benign": 0.000294903467874974
+      }
+    },
+    {
+      "image_path": "/kaggle/input/the-iqothnccd-lung-cancer-dataset/The IQ-OTHNCCD lung cancer dataset/Malignant cases/Malignant case (12).jpg",
+      "true_label": "Malignant",
+      "prediction": "Malignant",
+      "confidence": 0.9982378482818604,
+      "probabilities": {
+        "Malignant": 0.9982378482818604,
+        "Normal": 5.137502739671618e-05,
+        "Benign": 0.001710722572170198
+      }
+    },
+    {
+      "image_path": "/kaggle/input/the-iqothnccd-lung-cancer-dataset/The IQ-OTHNCCD lung cancer dataset/Malignant cases/Malignant case (547).jpg",
+      "true_label": "Malignant",
+      "prediction": "Malignant",
+      "confidence": 0.9993914365768433,
+      "probabilities": {
+        "Malignant": 0.9993914365768433,
+        "Normal": 9.162628884951118e-06,
+        "Benign": 0.0005993923987261951
+      }
+    },
+    {
+      "image_path": "/kaggle/input/the-iqothnccd-lung-cancer-dataset/The IQ-OTHNCCD lung cancer dataset/Malignant cases/Malignant case (116).jpg",
+      "true_label": "Malignant",
+      "prediction": "Malignant",
+      "confidence": 0.9998849630355835,
+      "probabilities": {
+        "Malignant": 0.9998849630355835,
+        "Normal": 7.753285899525508e-06,
+        "Benign": 0.00010728651977842674
+      }
+    },
+    {
+      "image_path": "/kaggle/input/the-iqothnccd-lung-cancer-dataset/The IQ-OTHNCCD lung cancer dataset/Normal cases/Normal case (257).jpg",
+      "true_label": "Normal",
+      "prediction": "Normal",
+      "confidence": 0.999772846698761,
+      "probabilities": {
+        "Malignant": 2.0535879230010323e-05,
+        "Normal": 0.999772846698761,
+        "Benign": 0.00020660764130298048
+      }
+    },
+    {
+      "image_path": "/kaggle/input/the-iqothnccd-lung-cancer-dataset/The IQ-OTHNCCD lung cancer dataset/Normal cases/Normal case (165).jpg",
+      "true_label": "Normal",
+      "prediction": "Normal",
+      "confidence": 0.9999713897705078,
+      "probabilities": {
+        "Malignant": 2.213052567867635e-07,
+        "Normal": 0.9999713897705078,
+        "Benign": 2.833992039086297e-05
+      }
+    },
+    {
+      "image_path": "/kaggle/input/the-iqothnccd-lung-cancer-dataset/The IQ-OTHNCCD lung cancer dataset/Normal cases/Normal case (376).jpg",
+      "true_label": "Normal",
+      "prediction": "Normal",
+      "confidence": 0.9999265670776367,
+      "probabilities": {
+        "Malignant": 2.3609763957210816e-06,
+        "Normal": 0.9999265670776367,
+        "Benign": 7.105446275090799e-05
+      }
+    },
+    {
+      "image_path": "/kaggle/input/the-iqothnccd-lung-cancer-dataset/The IQ-OTHNCCD lung cancer dataset/Malignant cases/Malignant case (57).jpg",
+      "true_label": "Malignant",
+      "prediction": "Malignant",
+      "confidence": 0.9993056058883667,
+      "probabilities": {
+        "Malignant": 0.9993056058883667,
+        "Normal": 0.000230193545576185,
+        "Benign": 0.0004642645944841206
+      }
+    },
+    {
+      "image_path": "/kaggle/input/the-iqothnccd-lung-cancer-dataset/The IQ-OTHNCCD lung cancer dataset/Malignant cases/Malignant case (516).jpg",
+      "true_label": "Malignant",
+      "prediction": "Malignant",
+      "confidence": 0.9995181560516357,
+      "probabilities": {
+        "Malignant": 0.9995181560516357,
+        "Normal": 5.614782276097685e-05,
+        "Benign": 0.00042575818952172995
+      }
+    },
+    {
+      "image_path": "/kaggle/input/the-iqothnccd-lung-cancer-dataset/The IQ-OTHNCCD lung cancer dataset/Malignant cases/Malignant case (146).jpg",
+      "true_label": "Malignant",
+      "prediction": "Malignant",
+      "confidence": 0.9988687634468079,
+      "probabilities": {
+        "Malignant": 0.9988687634468079,
+        "Normal": 9.310861787525937e-05,
+        "Benign": 0.0010381139582023025
+      }
+    },
+    {
+      "image_path": "/kaggle/input/the-iqothnccd-lung-cancer-dataset/The IQ-OTHNCCD lung cancer dataset/Normal cases/Normal case (28).jpg",
+      "true_label": "Normal",
+      "prediction": "Normal",
+      "confidence": 0.7471991777420044,
+      "probabilities": {
+        "Malignant": 0.001253602560609579,
+        "Normal": 0.7471991777420044,
+        "Benign": 0.25154727697372437
+      }
+    },
+    {
+      "image_path": "/kaggle/input/the-iqothnccd-lung-cancer-dataset/The IQ-OTHNCCD lung cancer dataset/Normal cases/Normal case (72).jpg",
+      "true_label": "Normal",
+      "prediction": "Normal",
+      "confidence": 0.999757707118988,
+      "probabilities": {
+        "Malignant": 1.1050229659304023e-05,
+        "Normal": 0.999757707118988,
+        "Benign": 0.00023118889657780528
+      }
+    },
+    {
+      "image_path": "/kaggle/input/the-iqothnccd-lung-cancer-dataset/The IQ-OTHNCCD lung cancer dataset/Normal cases/Normal case (94).jpg",
+      "true_label": "Normal",
+      "prediction": "Normal",
+      "confidence": 0.9998337030410767,
+      "probabilities": {
+        "Malignant": 1.7962651327252388e-05,
+        "Normal": 0.9998337030410767,
+        "Benign": 0.00014824955724179745
+      }
+    },
+    {
+      "image_path": "/kaggle/input/the-iqothnccd-lung-cancer-dataset/The IQ-OTHNCCD lung cancer dataset/Malignant cases/Malignant case (113).jpg",
+      "true_label": "Malignant",
+      "prediction": "Malignant",
+      "confidence": 0.9995352029800415,
+      "probabilities": {
+        "Malignant": 0.9995352029800415,
+        "Normal": 6.013225720380433e-05,
+        "Benign": 0.000404639751650393
+      }
+    },
+    {
+      "image_path": "/kaggle/input/the-iqothnccd-lung-cancer-dataset/The IQ-OTHNCCD lung cancer dataset/Normal cases/Normal case (283).jpg",
+      "true_label": "Normal",
+      "prediction": "Normal",
+      "confidence": 0.99982088804245,
+      "probabilities": {
+        "Malignant": 4.677488686866127e-05,
+        "Normal": 0.99982088804245,
+        "Benign": 0.00013233126082923263
+      }
+    },
+    {
+      "image_path": "/kaggle/input/the-iqothnccd-lung-cancer-dataset/The IQ-OTHNCCD lung cancer dataset/Malignant cases/Malignant case (370).jpg",
+      "true_label": "Malignant",
+      "prediction": "Malignant",
+      "confidence": 0.9987481832504272,
+      "probabilities": {
+        "Malignant": 0.9987481832504272,
+        "Normal": 6.37629782431759e-05,
+        "Benign": 0.0011879524681717157
+      }
+    },
+    {
+      "image_path": "/kaggle/input/the-iqothnccd-lung-cancer-dataset/The IQ-OTHNCCD lung cancer dataset/Malignant cases/Malignant case (247).jpg",
+      "true_label": "Malignant",
+      "prediction": "Malignant",
+      "confidence": 0.9985583424568176,
+      "probabilities": {
+        "Malignant": 0.9985583424568176,
+        "Normal": 0.00020871328888460994,
+        "Benign": 0.0012330401223152876
+      }
+    },
+    {
+      "image_path": "/kaggle/input/the-iqothnccd-lung-cancer-dataset/The IQ-OTHNCCD lung cancer dataset/Malignant cases/Malignant case (491).jpg",
+      "true_label": "Malignant",
+      "prediction": "Malignant",
+      "confidence": 0.9996229410171509,
+      "probabilities": {
+        "Malignant": 0.9996229410171509,
+        "Normal": 0.00031811665394343436,
+        "Benign": 5.8811838243855163e-05
+      }
+    },
+    {
+      "image_path": "/kaggle/input/the-iqothnccd-lung-cancer-dataset/The IQ-OTHNCCD lung cancer dataset/Malignant cases/Malignant case (30).jpg",
+      "true_label": "Malignant",
+      "prediction": "Malignant",
+      "confidence": 0.9992333650588989,
+      "probabilities": {
+        "Malignant": 0.9992333650588989,
+        "Normal": 0.00015050476940814406,
+        "Benign": 0.0006161495693959296
+      }
+    },
+    {
+      "image_path": "/kaggle/input/the-iqothnccd-lung-cancer-dataset/The IQ-OTHNCCD lung cancer dataset/Malignant cases/Malignant case (403).jpg",
+      "true_label": "Malignant",
+      "prediction": "Malignant",
+      "confidence": 0.9995835423469543,
+      "probabilities": {
+        "Malignant": 0.9995835423469543,
+        "Normal": 2.0804547602892853e-05,
+        "Benign": 0.0003956352302338928
+      }
+    },
+    {
+      "image_path": "/kaggle/input/the-iqothnccd-lung-cancer-dataset/The IQ-OTHNCCD lung cancer dataset/Malignant cases/Malignant case (168).jpg",
+      "true_label": "Malignant",
+      "prediction": "Malignant",
+      "confidence": 0.9997559189796448,
+      "probabilities": {
+        "Malignant": 0.9997559189796448,
+        "Normal": 6.422827027563471e-06,
+        "Benign": 0.00023764189973007888
+      }
+    },
+    {
+      "image_path": "/kaggle/input/the-iqothnccd-lung-cancer-dataset/The IQ-OTHNCCD lung cancer dataset/Malignant cases/Malignant case (276).jpg",
+      "true_label": "Malignant",
+      "prediction": "Malignant",
+      "confidence": 0.9992132186889648,
+      "probabilities": {
+        "Malignant": 0.9992132186889648,
+        "Normal": 0.00016611478349659592,
+        "Benign": 0.0006205601966939867
+      }
+    },
+    {
+      "image_path": "/kaggle/input/the-iqothnccd-lung-cancer-dataset/The IQ-OTHNCCD lung cancer dataset/Malignant cases/Malignant case (475).jpg",
+      "true_label": "Malignant",
+      "prediction": "Malignant",
+      "confidence": 0.9996999502182007,
+      "probabilities": {
+        "Malignant": 0.9996999502182007,
+        "Normal": 8.621929737273604e-05,
+        "Benign": 0.00021394948998931795
+      }
+    },
+    {
+      "image_path": "/kaggle/input/the-iqothnccd-lung-cancer-dataset/The IQ-OTHNCCD lung cancer dataset/Malignant cases/Malignant case (141).jpg",
+      "true_label": "Malignant",
+      "prediction": "Malignant",
+      "confidence": 0.9991918206214905,
+      "probabilities": {
+        "Malignant": 0.9991918206214905,
+        "Normal": 3.085710704908706e-05,
+        "Benign": 0.0007773676770739257
+      }
+    },
+    {
+      "image_path": "/kaggle/input/the-iqothnccd-lung-cancer-dataset/The IQ-OTHNCCD lung cancer dataset/Malignant cases/Malignant case (282).jpg",
+      "true_label": "Malignant",
+      "prediction": "Malignant",
+      "confidence": 0.9988486766815186,
+      "probabilities": {
+        "Malignant": 0.9988486766815186,
+        "Normal": 0.0003776849480345845,
+        "Benign": 0.0007736547850072384
+      }
+    },
+    {
+      "image_path": "/kaggle/input/the-iqothnccd-lung-cancer-dataset/The IQ-OTHNCCD lung cancer dataset/Normal cases/Normal case (167).jpg",
+      "true_label": "Normal",
+      "prediction": "Normal",
+      "confidence": 0.9999351501464844,
+      "probabilities": {
+        "Malignant": 6.64265030536626e-07,
+        "Normal": 0.9999351501464844,
+        "Benign": 6.416572432499379e-05
+      }
+    },
+    {
+      "image_path": "/kaggle/input/the-iqothnccd-lung-cancer-dataset/The IQ-OTHNCCD lung cancer dataset/Bengin cases/Bengin case (75).jpg",
+      "true_label": "Benign",
+      "prediction": "Benign",
+      "confidence": 0.9969051480293274,
+      "probabilities": {
+        "Malignant": 0.0002503077848814428,
+        "Normal": 0.0028445818461477757,
+        "Benign": 0.9969051480293274
+      }
+    },
+    {
+      "image_path": "/kaggle/input/the-iqothnccd-lung-cancer-dataset/The IQ-OTHNCCD lung cancer dataset/Malignant cases/Malignant case (450).jpg",
+      "true_label": "Malignant",
+      "prediction": "Malignant",
+      "confidence": 0.9997770190238953,
+      "probabilities": {
+        "Malignant": 0.9997770190238953,
+        "Normal": 2.1720959921367466e-05,
+        "Benign": 0.00020124852017033845
+      }
+    },
+    {
+      "image_path": "/kaggle/input/the-iqothnccd-lung-cancer-dataset/The IQ-OTHNCCD lung cancer dataset/Malignant cases/Malignant case (436).jpg",
+      "true_label": "Malignant",
+      "prediction": "Malignant",
+      "confidence": 0.999549925327301,
+      "probabilities": {
+        "Malignant": 0.999549925327301,
+        "Normal": 3.59438345185481e-05,
+        "Benign": 0.00041411028360016644
+      }
+    },
+    {
+      "image_path": "/kaggle/input/the-iqothnccd-lung-cancer-dataset/The IQ-OTHNCCD lung cancer dataset/Malignant cases/Malignant case (89).jpg",
+      "true_label": "Malignant",
+      "prediction": "Malignant",
+      "confidence": 0.9996280670166016,
+      "probabilities": {
+        "Malignant": 0.9996280670166016,
+        "Normal": 2.774670247163158e-05,
+        "Benign": 0.00034412965760566294
+      }
+    },
+    {
+      "image_path": "/kaggle/input/the-iqothnccd-lung-cancer-dataset/The IQ-OTHNCCD lung cancer dataset/Malignant cases/Malignant case (442).jpg",
+      "true_label": "Malignant",
+      "prediction": "Malignant",
+      "confidence": 0.9991951584815979,
+      "probabilities": {
+        "Malignant": 0.9991951584815979,
+        "Normal": 2.4208926333812997e-05,
+        "Benign": 0.0007806912180967629
+      }
+    },
+    {
+      "image_path": "/kaggle/input/the-iqothnccd-lung-cancer-dataset/The IQ-OTHNCCD lung cancer dataset/Malignant cases/Malignant case (375).jpg",
+      "true_label": "Malignant",
+      "prediction": "Malignant",
+      "confidence": 0.9991260170936584,
+      "probabilities": {
+        "Malignant": 0.9991260170936584,
+        "Normal": 4.51127125415951e-05,
+        "Benign": 0.000828793621622026
+      }
+    },
+    {
+      "image_path": "/kaggle/input/the-iqothnccd-lung-cancer-dataset/The IQ-OTHNCCD lung cancer dataset/Bengin cases/Bengin case (28).jpg",
+      "true_label": "Benign",
+      "prediction": "Benign",
+      "confidence": 0.7595479488372803,
+      "probabilities": {
+        "Malignant": 0.00517011433839798,
+        "Normal": 0.23528188467025757,
+        "Benign": 0.7595479488372803
+      }
+    },
+    {
+      "image_path": "/kaggle/input/the-iqothnccd-lung-cancer-dataset/The IQ-OTHNCCD lung cancer dataset/Bengin cases/Bengin case (49).jpg",
+      "true_label": "Benign",
+      "prediction": "Benign",
+      "confidence": 0.746722936630249,
+      "probabilities": {
+        "Malignant": 0.0020137797109782696,
+        "Normal": 0.25126323103904724,
+        "Benign": 0.746722936630249
+      }
+    },
+    {
+      "image_path": "/kaggle/input/the-iqothnccd-lung-cancer-dataset/The IQ-OTHNCCD lung cancer dataset/Malignant cases/Malignant case (386).jpg",
+      "true_label": "Malignant",
+      "prediction": "Malignant",
+      "confidence": 0.9998948574066162,
+      "probabilities": {
+        "Malignant": 0.9998948574066162,
+        "Normal": 2.462532620484126e-06,
+        "Benign": 0.00010268624464515597
+      }
+    },
+    {
+      "image_path": "/kaggle/input/the-iqothnccd-lung-cancer-dataset/The IQ-OTHNCCD lung cancer dataset/Normal cases/Normal case (247).jpg",
+      "true_label": "Normal",
+      "prediction": "Normal",
+      "confidence": 0.9997978806495667,
+      "probabilities": {
+        "Malignant": 3.0795908969594166e-06,
+        "Normal": 0.9997978806495667,
+        "Benign": 0.00019908872491214424
+      }
+    },
+    {
+      "image_path": "/kaggle/input/the-iqothnccd-lung-cancer-dataset/The IQ-OTHNCCD lung cancer dataset/Malignant cases/Malignant case (533).jpg",
+      "true_label": "Malignant",
+      "prediction": "Malignant",
+      "confidence": 0.9995667338371277,
+      "probabilities": {
+        "Malignant": 0.9995667338371277,
+        "Normal": 1.9369002984603867e-05,
+        "Benign": 0.0004138914227951318
+      }
+    },
+    {
+      "image_path": "/kaggle/input/the-iqothnccd-lung-cancer-dataset/The IQ-OTHNCCD lung cancer dataset/Malignant cases/Malignant case (267).jpg",
+      "true_label": "Malignant",
+      "prediction": "Malignant",
+      "confidence": 0.9993064403533936,
+      "probabilities": {
+        "Malignant": 0.9993064403533936,
+        "Normal": 9.535715435049497e-06,
+        "Benign": 0.0006839887355454266
+      }
+    },
+    {
+      "image_path": "/kaggle/input/the-iqothnccd-lung-cancer-dataset/The IQ-OTHNCCD lung cancer dataset/Malignant cases/Malignant case (140).jpg",
+      "true_label": "Malignant",
+      "prediction": "Malignant",
+      "confidence": 0.9982378482818604,
+      "probabilities": {
+        "Malignant": 0.9982378482818604,
+        "Normal": 5.137502739671618e-05,
+        "Benign": 0.001710722572170198
+      }
+    },
+    {
+      "image_path": "/kaggle/input/the-iqothnccd-lung-cancer-dataset/The IQ-OTHNCCD lung cancer dataset/Malignant cases/Malignant case (265).jpg",
+      "true_label": "Malignant",
+      "prediction": "Malignant",
+      "confidence": 0.9993689656257629,
+      "probabilities": {
+        "Malignant": 0.9993689656257629,
+        "Normal": 4.7406523663084954e-05,
+        "Benign": 0.0005835863994434476
+      }
+    },
+    {
+      "image_path": "/kaggle/input/the-iqothnccd-lung-cancer-dataset/The IQ-OTHNCCD lung cancer dataset/Malignant cases/Malignant case (129).jpg",
+      "true_label": "Malignant",
+      "prediction": "Malignant",
+      "confidence": 0.9993987083435059,
+      "probabilities": {
+        "Malignant": 0.9993987083435059,
+        "Normal": 4.656090823118575e-05,
+        "Benign": 0.0005547257605940104
+      }
+    },
+    {
+      "image_path": "/kaggle/input/the-iqothnccd-lung-cancer-dataset/The IQ-OTHNCCD lung cancer dataset/Normal cases/Normal case (162).jpg",
+      "true_label": "Normal",
+      "prediction": "Normal",
+      "confidence": 0.9999414682388306,
+      "probabilities": {
+        "Malignant": 4.216577735860483e-07,
+        "Normal": 0.9999414682388306,
+        "Benign": 5.812837480334565e-05
+      }
+    },
+    {
+      "image_path": "/kaggle/input/the-iqothnccd-lung-cancer-dataset/The IQ-OTHNCCD lung cancer dataset/Malignant cases/Malignant case (409).jpg",
+      "true_label": "Malignant",
+      "prediction": "Malignant",
+      "confidence": 0.9998165965080261,
+      "probabilities": {
+        "Malignant": 0.9998165965080261,
+        "Normal": 4.958478530170396e-05,
+        "Benign": 0.00013388479419518262
+      }
+    },
+    {
+      "image_path": "/kaggle/input/the-iqothnccd-lung-cancer-dataset/The IQ-OTHNCCD lung cancer dataset/Malignant cases/Malignant case (180).jpg",
+      "true_label": "Malignant",
+      "prediction": "Malignant",
+      "confidence": 0.9998050332069397,
+      "probabilities": {
+        "Malignant": 0.9998050332069397,
+        "Normal": 0.00010043184011010453,
+        "Benign": 9.457408305024728e-05
+      }
+    },
+    {
+      "image_path": "/kaggle/input/the-iqothnccd-lung-cancer-dataset/The IQ-OTHNCCD lung cancer dataset/Normal cases/Normal case (211).jpg",
+      "true_label": "Normal",
+      "prediction": "Normal",
+      "confidence": 0.9993584752082825,
+      "probabilities": {
+        "Malignant": 4.584618181979749e-06,
+        "Normal": 0.9993584752082825,
+        "Benign": 0.0006369056645780802
+      }
+    },
+    {
+      "image_path": "/kaggle/input/the-iqothnccd-lung-cancer-dataset/The IQ-OTHNCCD lung cancer dataset/Normal cases/Normal case (187).jpg",
+      "true_label": "Normal",
+      "prediction": "Normal",
+      "confidence": 0.9950697422027588,
+      "probabilities": {
+        "Malignant": 5.833918112330139e-05,
+        "Normal": 0.9950697422027588,
+        "Benign": 0.004871897865086794
+      }
+    },
+    {
+      "image_path": "/kaggle/input/the-iqothnccd-lung-cancer-dataset/The IQ-OTHNCCD lung cancer dataset/Bengin cases/Bengin case (115).jpg",
+      "true_label": "Benign",
+      "prediction": "Benign",
+      "confidence": 0.9994151592254639,
+      "probabilities": {
+        "Malignant": 3.265355189796537e-05,
+        "Normal": 0.0005521808052435517,
+        "Benign": 0.9994151592254639
+      }
+    },
+    {
+      "image_path": "/kaggle/input/the-iqothnccd-lung-cancer-dataset/The IQ-OTHNCCD lung cancer dataset/Malignant cases/Malignant case (414).jpg",
+      "true_label": "Malignant",
+      "prediction": "Malignant",
+      "confidence": 0.9979621171951294,
+      "probabilities": {
+        "Malignant": 0.9979621171951294,
+        "Normal": 0.0005701057962141931,
+        "Benign": 0.0014677789295092225
+      }
+    },
+    {
+      "image_path": "/kaggle/input/the-iqothnccd-lung-cancer-dataset/The IQ-OTHNCCD lung cancer dataset/Normal cases/Normal case (109).jpg",
+      "true_label": "Normal",
+      "prediction": "Normal",
+      "confidence": 0.999771773815155,
+      "probabilities": {
+        "Malignant": 3.7517386317631463e-06,
+        "Normal": 0.999771773815155,
+        "Benign": 0.0002244970528408885
+      }
+    },
+    {
+      "image_path": "/kaggle/input/the-iqothnccd-lung-cancer-dataset/The IQ-OTHNCCD lung cancer dataset/Normal cases/Normal case (119).jpg",
+      "true_label": "Normal",
+      "prediction": "Normal",
+      "confidence": 0.998350977897644,
+      "probabilities": {
+        "Malignant": 0.00026119014364667237,
+        "Normal": 0.998350977897644,
+        "Benign": 0.0013878506142646074
+      }
+    },
+    {
+      "image_path": "/kaggle/input/the-iqothnccd-lung-cancer-dataset/The IQ-OTHNCCD lung cancer dataset/Malignant cases/Malignant case (502).jpg",
+      "true_label": "Malignant",
+      "prediction": "Malignant",
+      "confidence": 0.9993282556533813,
+      "probabilities": {
+        "Malignant": 0.9993282556533813,
+        "Normal": 6.891330849612132e-05,
+        "Benign": 0.000602922635152936
+      }
+    },
+    {
+      "image_path": "/kaggle/input/the-iqothnccd-lung-cancer-dataset/The IQ-OTHNCCD lung cancer dataset/Normal cases/Normal case (415).jpg",
+      "true_label": "Normal",
+      "prediction": "Normal",
+      "confidence": 0.9995161294937134,
+      "probabilities": {
+        "Malignant": 3.392551661818288e-05,
+        "Normal": 0.9995161294937134,
+        "Benign": 0.00044994716881774366
+      }
+    },
+    {
+      "image_path": "/kaggle/input/the-iqothnccd-lung-cancer-dataset/The IQ-OTHNCCD lung cancer dataset/Malignant cases/Malignant case (100).jpg",
+      "true_label": "Malignant",
+      "prediction": "Malignant",
+      "confidence": 0.9988188147544861,
+      "probabilities": {
+        "Malignant": 0.9988188147544861,
+        "Normal": 0.00029803015058860183,
+        "Benign": 0.0008831798913888633
+      }
+    },
+    {
+      "image_path": "/kaggle/input/the-iqothnccd-lung-cancer-dataset/The IQ-OTHNCCD lung cancer dataset/Bengin cases/Bengin case (72).jpg",
+      "true_label": "Benign",
+      "prediction": "Benign",
+      "confidence": 0.9990664124488831,
+      "probabilities": {
+        "Malignant": 0.00028735771775245667,
+        "Normal": 0.0006462633027695119,
+        "Benign": 0.9990664124488831
+      }
+    },
+    {
+      "image_path": "/kaggle/input/the-iqothnccd-lung-cancer-dataset/The IQ-OTHNCCD lung cancer dataset/Normal cases/Normal case (192).jpg",
+      "true_label": "Normal",
+      "prediction": "Normal",
+      "confidence": 0.9996596574783325,
+      "probabilities": {
+        "Malignant": 4.313755653129192e-06,
+        "Normal": 0.9996596574783325,
+        "Benign": 0.00033601225004531443
+      }
+    },
+    {
+      "image_path": "/kaggle/input/the-iqothnccd-lung-cancer-dataset/The IQ-OTHNCCD lung cancer dataset/Malignant cases/Malignant case (50).jpg",
+      "true_label": "Malignant",
+      "prediction": "Malignant",
+      "confidence": 0.9996547698974609,
+      "probabilities": {
+        "Malignant": 0.9996547698974609,
+        "Normal": 7.433536666212603e-05,
+        "Benign": 0.0002708701358642429
+      }
+    },
+    {
+      "image_path": "/kaggle/input/the-iqothnccd-lung-cancer-dataset/The IQ-OTHNCCD lung cancer dataset/Normal cases/Normal case (347).jpg",
+      "true_label": "Normal",
+      "prediction": "Normal",
+      "confidence": 0.9893900752067566,
+      "probabilities": {
+        "Malignant": 0.008803267031908035,
+        "Normal": 0.9893900752067566,
+        "Benign": 0.0018066378543153405
+      }
+    },
+    {
+      "image_path": "/kaggle/input/the-iqothnccd-lung-cancer-dataset/The IQ-OTHNCCD lung cancer dataset/Normal cases/Normal case (224).jpg",
+      "true_label": "Normal",
+      "prediction": "Normal",
+      "confidence": 0.9997027516365051,
+      "probabilities": {
+        "Malignant": 4.835073468711926e-06,
+        "Normal": 0.9997027516365051,
+        "Benign": 0.0002924024884123355
+      }
+    },
+    {
+      "image_path": "/kaggle/input/the-iqothnccd-lung-cancer-dataset/The IQ-OTHNCCD lung cancer dataset/Bengin cases/Bengin case (34).jpg",
+      "true_label": "Benign",
+      "prediction": "Normal",
+      "confidence": 0.9982197880744934,
+      "probabilities": {
+        "Malignant": 6.983585626585409e-05,
+        "Normal": 0.9982197880744934,
+        "Benign": 0.0017103702994063497
+      }
+    },
+    {
+      "image_path": "/kaggle/input/the-iqothnccd-lung-cancer-dataset/The IQ-OTHNCCD lung cancer dataset/Malignant cases/Malignant case (373).jpg",
+      "true_label": "Malignant",
+      "prediction": "Malignant",
+      "confidence": 0.9991286396980286,
+      "probabilities": {
+        "Malignant": 0.9991286396980286,
+        "Normal": 8.80383449839428e-05,
+        "Benign": 0.0007833866984583437
+      }
+    },
+    {
+      "image_path": "/kaggle/input/the-iqothnccd-lung-cancer-dataset/The IQ-OTHNCCD lung cancer dataset/Bengin cases/Bengin case (79).jpg",
+      "true_label": "Benign",
+      "prediction": "Benign",
+      "confidence": 0.999383807182312,
+      "probabilities": {
+        "Malignant": 8.165496547007933e-05,
+        "Normal": 0.0005345220561139286,
+        "Benign": 0.999383807182312
+      }
+    },
+    {
+      "image_path": "/kaggle/input/the-iqothnccd-lung-cancer-dataset/The IQ-OTHNCCD lung cancer dataset/Normal cases/Normal case (43).jpg",
+      "true_label": "Normal",
+      "prediction": "Normal",
+      "confidence": 0.9930621981620789,
+      "probabilities": {
+        "Malignant": 0.0022308947518467903,
+        "Normal": 0.9930621981620789,
+        "Benign": 0.004706860054284334
+      }
+    },
+    {
+      "image_path": "/kaggle/input/the-iqothnccd-lung-cancer-dataset/The IQ-OTHNCCD lung cancer dataset/Bengin cases/Bengin case (87).jpg",
+      "true_label": "Benign",
+      "prediction": "Benign",
+      "confidence": 0.9803076386451721,
+      "probabilities": {
+        "Malignant": 0.0013502335641533136,
+        "Normal": 0.01834210380911827,
+        "Benign": 0.9803076386451721
+      }
+    },
+    {
+      "image_path": "/kaggle/input/the-iqothnccd-lung-cancer-dataset/The IQ-OTHNCCD lung cancer dataset/Normal cases/Normal case (76).jpg",
+      "true_label": "Normal",
+      "prediction": "Normal",
+      "confidence": 0.9964215755462646,
+      "probabilities": {
+        "Malignant": 1.4129417650110554e-05,
+        "Normal": 0.9964215755462646,
+        "Benign": 0.003564292099326849
+      }
+    },
+    {
+      "image_path": "/kaggle/input/the-iqothnccd-lung-cancer-dataset/The IQ-OTHNCCD lung cancer dataset/Normal cases/Normal case (125).jpg",
+      "true_label": "Normal",
+      "prediction": "Normal",
+      "confidence": 0.9980955719947815,
+      "probabilities": {
+        "Malignant": 0.0002482979034539312,
+        "Normal": 0.9980955719947815,
+        "Benign": 0.001656074309721589
+      }
+    },
+    {
+      "image_path": "/kaggle/input/the-iqothnccd-lung-cancer-dataset/The IQ-OTHNCCD lung cancer dataset/Malignant cases/Malignant case (523).jpg",
+      "true_label": "Malignant",
+      "prediction": "Malignant",
+      "confidence": 0.9987395405769348,
+      "probabilities": {
+        "Malignant": 0.9987395405769348,
+        "Normal": 0.00013860636681783944,
+        "Benign": 0.0011218441650271416
+      }
+    },
+    {
+      "image_path": "/kaggle/input/the-iqothnccd-lung-cancer-dataset/The IQ-OTHNCCD lung cancer dataset/Bengin cases/Bengin case (97).jpg",
+      "true_label": "Benign",
+      "prediction": "Benign",
+      "confidence": 0.9990191459655762,
+      "probabilities": {
+        "Malignant": 0.0002624845365062356,
+        "Normal": 0.0007183395209722221,
+        "Benign": 0.9990191459655762
+      }
+    },
+    {
+      "image_path": "/kaggle/input/the-iqothnccd-lung-cancer-dataset/The IQ-OTHNCCD lung cancer dataset/Malignant cases/Malignant case (561).jpg",
+      "true_label": "Malignant",
+      "prediction": "Malignant",
+      "confidence": 0.9995519518852234,
+      "probabilities": {
+        "Malignant": 0.9995519518852234,
+        "Normal": 2.230063546448946e-05,
+        "Benign": 0.0004257279506418854
+      }
+    },
+    {
+      "image_path": "/kaggle/input/the-iqothnccd-lung-cancer-dataset/The IQ-OTHNCCD lung cancer dataset/Bengin cases/Bengin case (94).jpg",
+      "true_label": "Benign",
+      "prediction": "Benign",
+      "confidence": 0.995010495185852,
+      "probabilities": {
+        "Malignant": 0.0002000237291213125,
+        "Normal": 0.004789525642991066,
+        "Benign": 0.995010495185852
+      }
+    },
+    {
+      "image_path": "/kaggle/input/the-iqothnccd-lung-cancer-dataset/The IQ-OTHNCCD lung cancer dataset/Normal cases/Normal case (330).jpg",
+      "true_label": "Normal",
+      "prediction": "Normal",
+      "confidence": 0.9994964599609375,
+      "probabilities": {
+        "Malignant": 3.455732075963169e-05,
+        "Normal": 0.9994964599609375,
+        "Benign": 0.00046900773304514587
+      }
+    },
+    {
+      "image_path": "/kaggle/input/the-iqothnccd-lung-cancer-dataset/The IQ-OTHNCCD lung cancer dataset/Normal cases/Normal case (126).jpg",
+      "true_label": "Normal",
+      "prediction": "Normal",
+      "confidence": 0.9987737536430359,
+      "probabilities": {
+        "Malignant": 0.0007165655842982233,
+        "Normal": 0.9987737536430359,
+        "Benign": 0.000509719830006361
+      }
+    },
+    {
+      "image_path": "/kaggle/input/the-iqothnccd-lung-cancer-dataset/The IQ-OTHNCCD lung cancer dataset/Normal cases/Normal case (379).jpg",
+      "true_label": "Normal",
+      "prediction": "Normal",
+      "confidence": 0.9999830722808838,
+      "probabilities": {
+        "Malignant": 2.8939300591446226e-06,
+        "Normal": 0.9999830722808838,
+        "Benign": 1.3980692529003136e-05
+      }
+    },
+    {
+      "image_path": "/kaggle/input/the-iqothnccd-lung-cancer-dataset/The IQ-OTHNCCD lung cancer dataset/Normal cases/Normal case (137).jpg",
+      "true_label": "Normal",
+      "prediction": "Normal",
+      "confidence": 0.998792290687561,
+      "probabilities": {
+        "Malignant": 3.587202081689611e-05,
+        "Normal": 0.998792290687561,
+        "Benign": 0.0011717831948772073
+      }
+    },
+    {
+      "image_path": "/kaggle/input/the-iqothnccd-lung-cancer-dataset/The IQ-OTHNCCD lung cancer dataset/Normal cases/Normal case (71).jpg",
+      "true_label": "Normal",
+      "prediction": "Normal",
+      "confidence": 0.9998735189437866,
+      "probabilities": {
+        "Malignant": 3.244535400881432e-05,
+        "Normal": 0.9998735189437866,
+        "Benign": 9.399590635439381e-05
+      }
+    },
+    {
+      "image_path": "/kaggle/input/the-iqothnccd-lung-cancer-dataset/The IQ-OTHNCCD lung cancer dataset/Normal cases/Normal case (102).jpg",
+      "true_label": "Normal",
+      "prediction": "Normal",
+      "confidence": 0.9994460940361023,
+      "probabilities": {
+        "Malignant": 5.52860228708596e-06,
+        "Normal": 0.9994460940361023,
+        "Benign": 0.0005483526038005948
+      }
+    },
+    {
+      "image_path": "/kaggle/input/the-iqothnccd-lung-cancer-dataset/The IQ-OTHNCCD lung cancer dataset/Normal cases/Normal case (267).jpg",
+      "true_label": "Normal",
+      "prediction": "Normal",
+      "confidence": 0.9993792772293091,
+      "probabilities": {
+        "Malignant": 3.646445838967338e-05,
+        "Normal": 0.9993792772293091,
+        "Benign": 0.0005842007813043892
+      }
+    },
+    {
+      "image_path": "/kaggle/input/the-iqothnccd-lung-cancer-dataset/The IQ-OTHNCCD lung cancer dataset/Normal cases/Normal case (44).jpg",
+      "true_label": "Normal",
+      "prediction": "Normal",
+      "confidence": 0.9994001388549805,
+      "probabilities": {
+        "Malignant": 0.0002167283237213269,
+        "Normal": 0.9994001388549805,
+        "Benign": 0.0003831320209428668
+      }
+    },
+    {
+      "image_path": "/kaggle/input/the-iqothnccd-lung-cancer-dataset/The IQ-OTHNCCD lung cancer dataset/Normal cases/Normal case (356).jpg",
+      "true_label": "Normal",
+      "prediction": "Benign",
+      "confidence": 0.8803993463516235,
+      "probabilities": {
+        "Malignant": 0.0005724975490011275,
+        "Normal": 0.11902813613414764,
+        "Benign": 0.8803993463516235
+      }
+    },
+    {
+      "image_path": "/kaggle/input/the-iqothnccd-lung-cancer-dataset/The IQ-OTHNCCD lung cancer dataset/Malignant cases/Malignant case (2).jpg",
+      "true_label": "Malignant",
+      "prediction": "Malignant",
+      "confidence": 0.9996094107627869,
+      "probabilities": {
+        "Malignant": 0.9996094107627869,
+        "Normal": 6.818992551416159e-05,
+        "Benign": 0.00032246403861790895
+      }
+    },
+    {
+      "image_path": "/kaggle/input/the-iqothnccd-lung-cancer-dataset/The IQ-OTHNCCD lung cancer dataset/Malignant cases/Malignant case (223).jpg",
+      "true_label": "Malignant",
+      "prediction": "Malignant",
+      "confidence": 0.9979950189590454,
+      "probabilities": {
+        "Malignant": 0.9979950189590454,
+        "Normal": 9.189173579216003e-05,
+        "Benign": 0.0019131528679281473
+      }
+    },
+    {
+      "image_path": "/kaggle/input/the-iqothnccd-lung-cancer-dataset/The IQ-OTHNCCD lung cancer dataset/Malignant cases/Malignant case (32).jpg",
+      "true_label": "Malignant",
+      "prediction": "Malignant",
+      "confidence": 0.9993622899055481,
+      "probabilities": {
+        "Malignant": 0.9993622899055481,
+        "Normal": 2.7728903660317883e-05,
+        "Benign": 0.0006099850288592279
+      }
+    },
+    {
+      "image_path": "/kaggle/input/the-iqothnccd-lung-cancer-dataset/The IQ-OTHNCCD lung cancer dataset/Normal cases/Normal case (138).jpg",
+      "true_label": "Normal",
+      "prediction": "Normal",
+      "confidence": 0.9969280362129211,
+      "probabilities": {
+        "Malignant": 0.00010351728997193277,
+        "Normal": 0.9969280362129211,
+        "Benign": 0.0029684407636523247
+      }
+    },
+    {
+      "image_path": "/kaggle/input/the-iqothnccd-lung-cancer-dataset/The IQ-OTHNCCD lung cancer dataset/Malignant cases/Malignant case (27).jpg",
+      "true_label": "Malignant",
+      "prediction": "Malignant",
+      "confidence": 0.9996278285980225,
+      "probabilities": {
+        "Malignant": 0.9996278285980225,
+        "Normal": 3.87586114811711e-05,
+        "Benign": 0.0003334638604428619
+      }
+    },
+    {
+      "image_path": "/kaggle/input/the-iqothnccd-lung-cancer-dataset/The IQ-OTHNCCD lung cancer dataset/Malignant cases/Malignant case (43).jpg",
+      "true_label": "Malignant",
+      "prediction": "Malignant",
+      "confidence": 0.9996668100357056,
+      "probabilities": {
+        "Malignant": 0.9996668100357056,
+        "Normal": 4.02626974391751e-05,
+        "Benign": 0.00029288424411788583
+      }
+    },
+    {
+      "image_path": "/kaggle/input/the-iqothnccd-lung-cancer-dataset/The IQ-OTHNCCD lung cancer dataset/Malignant cases/Malignant case (317).jpg",
+      "true_label": "Malignant",
+      "prediction": "Malignant",
+      "confidence": 0.9992140531539917,
+      "probabilities": {
+        "Malignant": 0.9992140531539917,
+        "Normal": 0.00010194057540502399,
+        "Benign": 0.0006839389097876847
+      }
+    },
+    {
+      "image_path": "/kaggle/input/the-iqothnccd-lung-cancer-dataset/The IQ-OTHNCCD lung cancer dataset/Malignant cases/Malignant case (435).jpg",
+      "true_label": "Malignant",
+      "prediction": "Malignant",
+      "confidence": 0.9994040727615356,
+      "probabilities": {
+        "Malignant": 0.9994040727615356,
+        "Normal": 3.67868815374095e-05,
+        "Benign": 0.0005591157823801041
+      }
+    },
+    {
+      "image_path": "/kaggle/input/the-iqothnccd-lung-cancer-dataset/The IQ-OTHNCCD lung cancer dataset/Normal cases/Normal case (122).jpg",
+      "true_label": "Normal",
+      "prediction": "Normal",
+      "confidence": 0.9552400708198547,
+      "probabilities": {
+        "Malignant": 0.011088103987276554,
+        "Normal": 0.9552400708198547,
+        "Benign": 0.03367180377244949
+      }
+    },
+    {
+      "image_path": "/kaggle/input/the-iqothnccd-lung-cancer-dataset/The IQ-OTHNCCD lung cancer dataset/Malignant cases/Malignant case (551).jpg",
+      "true_label": "Malignant",
+      "prediction": "Malignant",
+      "confidence": 0.9990371465682983,
+      "probabilities": {
+        "Malignant": 0.9990371465682983,
+        "Normal": 2.2578420612262562e-05,
+        "Benign": 0.0009402993018738925
+      }
+    },
+    {
+      "image_path": "/kaggle/input/the-iqothnccd-lung-cancer-dataset/The IQ-OTHNCCD lung cancer dataset/Normal cases/Normal case (195).jpg",
+      "true_label": "Normal",
+      "prediction": "Normal",
+      "confidence": 0.9998950958251953,
+      "probabilities": {
+        "Malignant": 1.980132765311282e-05,
+        "Normal": 0.9998950958251953,
+        "Benign": 8.507924940204248e-05
+      }
+    }
+  ]
+}

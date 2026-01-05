@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Flutter
+.dart_tool/
+.packages
+.pub/
+build/
+ios/Flutter/App.framework/
+ios/Flutter/Flutter.framework/
+
+# IDEs
+.idea/
+.vscode/
+
+# Project Specific
+backend/venv/
+backend/.venv/

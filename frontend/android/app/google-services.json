@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1046091909602",
+    "project_id": "fir-867ba",
+    "storage_bucket": "fir-867ba.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1046091909602:android:769019e8f942bdb35811bb",
+        "android_client_info": {
+          "package_name": "com.example.final_fyp_lung_cancer"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1046091909602-pudlpsbvdo8n84ej3udrpk12ikm2ih2h.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBDwOusO0spER1a3yVMOJWXMcO_9rFFCQU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1046091909602-pudlpsbvdo8n84ej3udrpk12ikm2ih2h.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
